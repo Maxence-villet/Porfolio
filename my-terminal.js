@@ -12,7 +12,7 @@ const directories = {
         '',
         '<white>Projets</white>',
         [
-
+            'Terminal-Portfolio'
         ].map((name, url, description = '') => {
             return `<a href="${url}>"${name}</a> &mdash; <white>${description}</white>`;
         }),
